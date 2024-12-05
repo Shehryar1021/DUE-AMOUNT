@@ -6,7 +6,7 @@ print ("Apple 1$")
 print ("Grape 0.5$")
 print ("Banana 0.5$")
 prices = {"orange":0.5,"apple":1,"grape":0.5,"banana":0.5}
-productnum = input("How many things do you want to buy: ") wants
+productnum = input("How many things do you want to buy: ") 
 while not productnum.isdigit():
     productnum = input("How many different products do you want to buy: ")
 productnum = int(productnum)
